@@ -1,0 +1,135 @@
+*{
+  font-family: 'Fondamento', cursive;
+  
+}
+
+body{
+  background-color: #FFFFFF;
+}
+footer{
+  color:#936247; 
+  background-color:#EEE8D7;
+}
+#mynavbar, #myheader{
+  color: #946247;
+  background-color:#EEE8D7;
+}
+.icon{
+  background-color:#946247;
+  color:bisque;
+  padding: 5px;
+  border-radius: 3px;
+}
+.mytable{
+  color:#946247;
+}
+.bread-crumbs>li{
+  display:inline;
+  list-style-type: none;
+  padding-left: 5px;
+}
+.price{
+  color:red;
+}
+.product-display{
+  display: flex;
+  gap: 30px;
+  flex-wrap:wrap;
+}
+.btn-bw{
+  border-color: black;
+}
+.btn-bw:hover{
+  background-color: rgb(155, 151, 151);
+}
+
+.my-card {
+  /*background-color: #E9DCC9; */
+  border-style: none;
+}
+.mytitle h2 {
+  color :#946247;
+}
+.brown-text {
+  color: #35271c;
+}
+.our-story{
+  margin-top: 5%;
+}
+.our-story > div{
+  max-width: 60% ;
+   margin: auto; 
+   font-size: 20px;
+}
+
+.feature-break{
+  margin:50px;
+  margin-left:0;
+  width:100%;
+}
+
+.my-card-img{
+  border-radius: 50px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.T-active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.mySlides {
+  display: none;
+}
+.mybq{
+  padding: 10px;
+  background-color: #eee;
+}
+.carousel-caption{
+  background-color: #23232388;
+}
+.green-title{
+  color: #494b33;
+}
+
+
+
+@media only screen and (max-width: 786px) {
+  .product-display > .card{
+    width:40%;
+    height:auto;
+  }
+  .our-story > div{
+    max-width: 75% ;
+  }
+  .my-card-img{
+    border-radius: 50%;
+    width: 150px;
+    margin:auto
+  }
+}
+
